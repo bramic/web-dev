@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 
 body {
     font-family: Helvetica Neue, Arial;
@@ -34,6 +40,37 @@ h2 {
 }
 
 .author-text{
-    font-size: 22px;
+    font-size: 25px;
+}‚
+
+
+
+.container {
+    width: 600px;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
 
+
+.blog-post {
+    background-color: #9d9df0;
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+
+}
+
+.other-posts {
+    background-color: #4cea0e;
+    width: 25%;
+    float: left;
+
+}
+
+.author-box {
+    background: #ddd;
+    border-top: 1px solid #959595;
+    padding-top: 20px;
+}
